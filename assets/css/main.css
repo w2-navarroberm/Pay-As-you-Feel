@@ -195,7 +195,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 1rem 0 1rem 0;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2700,7 +2701,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					padding: 1rem 0 0 0;
+					padding: 0rem 0 0 0;
 					text-align: center;
 					width: 100%;
 				}
@@ -3882,3 +3883,20 @@ input, select, textarea {
 		}
 
 	}
+
+.copyright {
+		text-align: center;
+}
+
+	/* Header text */
+
+.content {
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+	position: inherit;
+	top: 65%;
+
+}
