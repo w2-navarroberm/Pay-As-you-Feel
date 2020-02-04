@@ -3892,6 +3892,7 @@ input, select, textarea {
 
 .content {
 	text-align: center;
+	position: fixed;
 }
 
 .centered {
