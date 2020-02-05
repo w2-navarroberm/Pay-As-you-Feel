@@ -2515,6 +2515,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+		
 		}
 
 			.image.fill img {
@@ -2523,6 +2524,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				overflow: hidden;
 			}
 
 /* List */
@@ -3903,6 +3905,5 @@ input, select, textarea {
 }
 
 .centered h1 {
-	color: #ffffff;
+	color: #fff;
 }
-
