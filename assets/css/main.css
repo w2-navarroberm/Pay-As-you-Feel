@@ -2367,7 +2367,7 @@ input, select, textarea {
 			-ms-object-fit: cover;
 			object-fit: cover;
 			display: block;
-			position: absolute;
+			position: fixed;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -2515,17 +2515,8 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		
 		}
 
-			.image.fill img {
-				height: 100%;
-				left: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
-				overflow: hidden;
-			}
 
 /* List */
 
@@ -3893,6 +3884,7 @@ input, select, textarea {
 	/* Header text */
 
 .content {
+	background-color: #fff;
 	text-align: center;
 	position: fixed;
 }
@@ -3906,4 +3898,17 @@ input, select, textarea {
 
 .centered h1 {
 	color: #fff;
+}
+
+footer {
+	background-color: #fff;
+}
+
+.copyright {
+	background-color: #fff;
+}
+
+.copyright p{
+	color: #000;
+	margin: 0;
 }
