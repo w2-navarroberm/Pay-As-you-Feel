@@ -2953,6 +2953,7 @@ input, select, textarea {
 
 				.gallery a.landscape img {
 					height: 30vw;
+					position: relative;
 				}
 
 			.gallery a.portrait img {
@@ -3911,4 +3912,8 @@ footer {
 .copyright p{
 	color: #000;
 	margin: 0;
+}
+
+.coffee {
+	object-position: 50px; 
 }
