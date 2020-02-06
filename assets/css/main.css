@@ -2537,7 +2537,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.325rem;
+			padding-left: 0rem;
 		}
 
 		ul.alt {
@@ -3916,4 +3916,9 @@ footer {
 
 .coffee {
 	object-position: 50px; 
+}
+
+.openinglist {
+	list-style: disc;
+	padding-left: 1rem;
 }
